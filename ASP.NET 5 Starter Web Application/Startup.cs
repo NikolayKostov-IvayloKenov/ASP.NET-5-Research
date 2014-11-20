@@ -1,4 +1,5 @@
 ﻿using System;
+using ASP.NET_5_Starter_Web_Application.Middlewares;
 using Microsoft.AspNet.Builder;
 using Microsoft.AspNet.Diagnostics;
 using Microsoft.AspNet.Diagnostics.Entity;
@@ -77,6 +78,8 @@ namespace ASP.NET_5_Starter_Web_Application
 
             // Add cookie-based authentication to the request pipeline.
             app.UseIdentity();
+
+            app.UseMiddleware<ApplicationHeaderMiddleware>();
 
             // Add MVC to the request pipeline.
             app.UseMvc(routes =>
