@@ -13,6 +13,7 @@ using Microsoft.Framework.DependencyInjection;
 using Microsoft.Framework.Logging;
 using Microsoft.Framework.Logging.Console;
 using ASP.NET_5_Starter_Web_Application.Models;
+using ASP.NET_5_Starter_Web_Application.Services;
 
 namespace ASP.NET_5_Starter_Web_Application
 {
@@ -46,6 +47,8 @@ namespace ASP.NET_5_Starter_Web_Application
             // You need to add Microsoft.AspNet.Mvc.WebApiCompatShim package to project.json
             // services.AddWebApiConventions();
 
+
+            services.AddScoped<ITimeProvider, TimeProvider>();
         }
 
         // Configure is called after ConfigureServices is called.
