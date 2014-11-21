@@ -15,7 +15,7 @@ namespace ASP.NET_5_Starter_Web_Application.ViewComponents
         {
             var items = Enumerable.Range(1, numbers).ToList();
 
-            return View(items);
+            return this.View(items);
         }
     }
 }

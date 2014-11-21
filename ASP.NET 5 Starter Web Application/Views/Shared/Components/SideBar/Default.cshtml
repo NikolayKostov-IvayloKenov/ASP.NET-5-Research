@@ -1,4 +1,4 @@
-﻿@model IEnumerable<int>
+﻿@inject ASP.NET_5_Starter_Web_Application.Services.ITimeProvider Time
 
 <h3>Some numbers</h3>
 <ul>
@@ -7,3 +7,5 @@
         <li>@num</li>
     }
 </ul>
+
+<h4>And the time is @Time.GetTimeString()</h4>
