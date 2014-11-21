@@ -48,8 +48,8 @@ namespace ASP.NET_5_Starter_Web_Application
             // You need to add Microsoft.AspNet.Mvc.WebApiCompatShim package to project.json
             // services.AddWebApiConventions();
 
-
             services.AddScoped<ITimeProvider, TimeProvider>();
+            services.AddScoped<ITodoRepository, TodoRepository>();
         }
 
         // Configure is called after ConfigureServices is called.
