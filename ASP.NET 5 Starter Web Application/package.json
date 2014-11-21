@@ -3,6 +3,7 @@
     "name": "ASP.NET_5_Starter_Web_Application",
     "devDependencies": {
         "grunt": "^0.4.5",
-        "grunt-bower-task": "^0.4.0"
+        "grunt-bower-task": "^0.4.0",
+        "grunt-contrib-less": "^0.12.0"
     }
 }

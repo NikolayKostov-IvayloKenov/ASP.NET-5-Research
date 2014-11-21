@@ -188,4 +188,5 @@ UpgradeLog*.htm
 FakesAssemblies/
 
 # Project specific
-ASP.NET 5 Starter Web Application/wwwroot/lib/
+/ASP.NET 5 Starter Web Application/lib
+/ASP.NET 5 Starter Web Application/wwwroot/lib
