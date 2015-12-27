@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.22310.1
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ASP.NET_5_Starter_Web_Application", "ASP.NET 5 Starter Web Application\ASP.NET_5_Starter_Web_Application.kproj", "{3D38BAA1-C8B3-4F9E-9749-F2FC1943F9B1}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ASP.NET_5_Starter_Web_Application", "ASP.NET 5 Starter Web Application\ASP.NET_5_Starter_Web_Application.xproj", "{3D38BAA1-C8B3-4F9E-9749-F2FC1943F9B1}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ASP.NET_5_Empty_Application", "ASP.NET 5 Empty Application\ASP.NET_5_Empty_Application.kproj", "{B8DBD85D-3FBE-4DC3-AF71-2615189F7831}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ASP.NET_5_Empty_Application", "ASP.NET 5 Empty Application\ASP.NET_5_Empty_Application.xproj", "{B8DBD85D-3FBE-4DC3-AF71-2615189F7831}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ASP.NET WebForms HTTP 2.0", "ASP.NET WebForms HTTP 2.0\ASP.NET WebForms HTTP 2.0.csproj", "{D0CF093E-E29B-483B-AD94-D4C8BF8E7F09}"
 EndProject

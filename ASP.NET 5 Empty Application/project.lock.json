@@ -1,0 +1,92 @@
+{
+  "locked": false,
+  "version": 2,
+  "targets": {
+    "DNX,Version=v4.5.1": {
+      "Microsoft.AspNet.Loader.IIS/1.0.0-beta1": {
+        "type": "package"
+      },
+      "Microsoft.AspNet.Loader.IIS.Interop/1.0.0-beta1": {
+        "type": "package"
+      },
+      "Microsoft.AspNet.Server.IIS/1.0.0-beta1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Loader.IIS": "1.0.0-beta1",
+          "Microsoft.AspNet.Loader.IIS.Interop": "1.0.0-beta1"
+        }
+      }
+    },
+    "DNX,Version=v4.5.1/win7-x86": {
+      "Microsoft.AspNet.Loader.IIS/1.0.0-beta1": {
+        "type": "package"
+      },
+      "Microsoft.AspNet.Loader.IIS.Interop/1.0.0-beta1": {
+        "type": "package"
+      },
+      "Microsoft.AspNet.Server.IIS/1.0.0-beta1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Loader.IIS": "1.0.0-beta1",
+          "Microsoft.AspNet.Loader.IIS.Interop": "1.0.0-beta1"
+        }
+      }
+    },
+    "DNX,Version=v4.5.1/win7-x64": {
+      "Microsoft.AspNet.Loader.IIS/1.0.0-beta1": {
+        "type": "package"
+      },
+      "Microsoft.AspNet.Loader.IIS.Interop/1.0.0-beta1": {
+        "type": "package"
+      },
+      "Microsoft.AspNet.Server.IIS/1.0.0-beta1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNet.Loader.IIS": "1.0.0-beta1",
+          "Microsoft.AspNet.Loader.IIS.Interop": "1.0.0-beta1"
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.AspNet.Loader.IIS/1.0.0-beta1": {
+      "type": "package",
+      "sha512": "Rk7R0PUyTGanleD13fNJpkHhzRZGUyRF/637vg707zDa+WAOzkoroQDqLCiq1Gj04rKLUAad4aGOhmnj2kO9NQ==",
+      "files": [
+        "lib/aspnet50/Microsoft.AspNet.Loader.IIS.dll",
+        "lib/aspnet50/Microsoft.AspNet.Loader.IIS.xml",
+        "lib/aspnetcore50/Microsoft.AspNet.Loader.IIS.dll",
+        "lib/aspnetcore50/Microsoft.AspNet.Loader.IIS.xml",
+        "Microsoft.AspNet.Loader.IIS.1.0.0-beta1.nupkg",
+        "Microsoft.AspNet.Loader.IIS.1.0.0-beta1.nupkg.sha512",
+        "Microsoft.AspNet.Loader.IIS.nuspec"
+      ]
+    },
+    "Microsoft.AspNet.Loader.IIS.Interop/1.0.0-beta1": {
+      "type": "package",
+      "sha512": "l1IwSlGyqCa/1X/3Frk+Z6TnaHKZ6sjoLjqHC4i4MGIpaqTbTXk4ImXRdZc0DL1E1mFP3gk7uDIX9PzcdGmofA==",
+      "files": [
+        "InteropAssemblies/amd64/Microsoft.AspNet.Loader.IIS.Interop.dll",
+        "InteropAssemblies/x86/Microsoft.AspNet.Loader.IIS.Interop.dll",
+        "Microsoft.AspNet.Loader.IIS.Interop.1.0.0-beta1.nupkg",
+        "Microsoft.AspNet.Loader.IIS.Interop.1.0.0-beta1.nupkg.sha512",
+        "Microsoft.AspNet.Loader.IIS.Interop.nuspec",
+        "tools/AspNet.Loader.dll"
+      ]
+    },
+    "Microsoft.AspNet.Server.IIS/1.0.0-beta1": {
+      "type": "package",
+      "sha512": "GF//gEBd+ofIVVlpKkfIoqzW4Rqsqh8TuID8wTzPdbkQgSqOxnA9XQEPYRwrTUibtYx736EQo/02R1nxVn9VYw==",
+      "files": [
+        "Microsoft.AspNet.Server.IIS.1.0.0-beta1.nupkg",
+        "Microsoft.AspNet.Server.IIS.1.0.0-beta1.nupkg.sha512",
+        "Microsoft.AspNet.Server.IIS.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "": [
+      "Microsoft.AspNet.Server.IIS >= 1.0.0-beta1"
+    ]
+  }
+}
